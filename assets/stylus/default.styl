@@ -13,20 +13,12 @@ html, body
   -moz-osx-font-smoothing grayscale
   font-display swap
   -webkit-overflow-scrolling touch
-  +bp(md)
-    position relative
-    overflow-x hidden
-    overflow-y scroll
-    width 100vw
-    height auto
   &.overflow-y-hidden
     overflow-y hidden
 // custom-scroll(rgba(color-white, 0), rgba(color-black, .32), 2, true, false)
 br
   &.sp__br
     display none
-    +bp(sm)
-      display block
 a
   position relative
   display inline-block
